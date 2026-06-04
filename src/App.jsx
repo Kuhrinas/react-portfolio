@@ -1,0 +1,90 @@
+import "./App.css";
+
+function App() {
+  return (
+    <div>
+      <nav>
+        <h2>KS Portfolio</h2>
+
+        <a href="#home">Home</a> |{" "}
+        <a href="#about">About</a> |{" "}
+        <a href="#projects">Projects</a> |{" "}
+        <a href="#services">Services</a> |{" "}
+        <a href="#references">References</a> |{" "}
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          My name is Karina. I am a Software Engineering student interested in
+          web development and game development.
+        </p>
+      </section>
+
+      <section id="about">
+        <h1>About Me</h1>
+        <p>
+          I am a student at Centennial College learning how to build websites,
+          applications, and software projects.
+        </p>
+      </section>
+
+<section id="projects">
+  <h1>Projects</h1>
+
+  <h3>Student Study Planner</h3>
+  <p>
+    A web application designed to help students manage assignments,
+    exams, and study schedules.
+  </p>
+  <p>Completion Date: June 2026</p>
+
+  <h3>Package Delivery System</h3>
+  <p>
+    Javabased application used to manage riders and deliveries
+    through object oriented programming concepts.
+  </p>
+  <p>Completion Date: May 2026</p>
+
+  <h3>Portfolio Website</h3>
+  <p>
+    Personal portfolio website developed using React to showcase
+    projects, skills, and services.
+  </p>
+  <p>Completion Date: June 2026</p>
+</section>
+
+<section id="services">
+  <h1>Services</h1>
+
+  <h3>Web Development</h3>
+  <p>creating responsive websites using HMTL, CSS, JavaScript, and React.</p>
+
+  <h3>Software Development</h3>
+  <p>building desktop and console applications using Java and C#.</p>
+
+  <h3>Database Design</h3>
+  <p>creating and managing databases using SQL and Oracle.</p>
+</section>
+
+<section id="contact">
+  <h1>Contact Me</h1>
+
+  <p>Email: rockyaj2004@gmail.com</p>
+  <p>LinkedIn: i dont have linked in yet.</p>
+
+  <form>
+    <input type="text" placeholder="First Name" />
+    <input type="text" placeholder="Last Name" />
+    <input type="email" placeholder="Email Address" />
+    <input type="tel" placeholder="Phone Number" />
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+    </div>
+  );
+}
+
+export default App;
