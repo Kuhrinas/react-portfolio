@@ -16,18 +16,41 @@ function App() {
 
       <section id="home">
         <h1>Welcome to My Portfolio</h1>
+
         <p>
           My name is Karina. I am a Software Engineering student interested in
           web development and game development.
+        </p>
+
+        <p> I am passionate about software development, web development, and game
+          development. This portfolio will showcase some of my work, projects and skills.
+        </p>
+
+        <p>
+          My goal is to continue learning and growing as a developer that solve real world problems.
         </p>
       </section>
 
       <section id="about">
         <h1>About Me</h1>
+        
         <p>
-          I am a student at Centennial College learning how to build websites,
-          applications, and software projects.
+          I am a student at Centennial College, learning software engineering.
         </p>
+
+        <p>
+          I enjoy building applications, learning new programming languages, and
+          wokring on software projects that challenge my problem solving skills.
+        </p>
+
+        <p>
+          In my free time, i enjoy playing video games, coding personal projects on roblox
+          and learning blender, the modeling program. 
+        </p>
+
+        <a href="/resume.pdf" target="_blank">
+          View My Resume
+        </a>
       </section>
 
 <section id="projects">
