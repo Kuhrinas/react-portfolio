@@ -95,3 +95,11 @@ textarea {
 .nav-links {
   text-align: center;
 }
+
+.project-image {
+  width: 500px;
+  height: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+  border: 2px solid #111827;
+}

@@ -1,6 +1,9 @@
 import "./App.css";
 import profilePic from "./assets/profile.jpeg";
 import logo from "./assets/logo.png";
+import aboutMeIMG from "./assets/aboutme.png";
+import cafeIMG from "./assets/cafe.png";
+import ticTacToeIMG from "./assets/tictactoe.png";
 
 function App() {
   return (
@@ -65,8 +68,14 @@ function App() {
       </section>
 
 <section id="projects">
+  
   <h1>Projects</h1>
-
+ 
+  <img src={aboutMeIMG}   
+  alt="personal about me website"  
+  className="project-image" 
+  />
+  
   <h3>Personal About Me Website</h3>
   <p>
     A personal website created using html and css to introduce myself, showcase my interests,
@@ -79,6 +88,10 @@ function App() {
   <p>Completion Date: 2022</p>
 
   <h3>Karina's Cafe</h3>
+<img src={cafeIMG}
+alt="cafe website"
+className="project-image"
+/>
   <p>
     A cafe websited designed to showcase menu items, business information, and show how fair
     the prices are on the website (they're not lol). This project really helped me practice my CSS skills.
@@ -89,8 +102,11 @@ target="_blank">
  View Project
 </a>
   <p>Completion Date: 2022</p>
-
   <h3>Tic Tac Toe Game</h3>
+  <img src={ticTacToeIMG}   
+  alt="tic tac toe game"  
+  className="project-image" 
+  />
   <p>
     A tic tac toe game built using Javascript, HTML and CSS. Very small project but it was
     really fun to build and obviously helped me better understand how to code. 
@@ -99,13 +115,7 @@ target="_blank">
 target="_blank">
  View Project
 </a>
-  <p>Completion Date:2022</p>
 
-  <h3> Small tictactoe game</h3>
-  <p>
-    A small tictactoe game built using Java
-  </p>
-  <p>Completion Date: A while ago idk lol</p>
 </section>
 
 <section id="services">
