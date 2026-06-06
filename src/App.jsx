@@ -1,18 +1,22 @@
 import "./App.css";
+import profilePic from "./assets/profile.jpeg";
+import logo from "./assets/logo.png";
 
 function App() {
   return (
     <div>
       <nav>
-        <h2>KS Portfolio</h2>
+        <img src={logo} alt="Karinas logo" className="logo" />
 
+      <div className="nav-links">
         <a href="#home">Home</a> |{" "}
         <a href="#about">About</a> |{" "}
         <a href="#projects">Projects</a> |{" "}
         <a href="#services">Services</a> |{" "}
         <a href="#references">References</a> |{" "}
         <a href="#contact">Contact</a>
-      </nav>
+      </div>
+    </nav>
 
       <section id="home">
         <h1>Welcome to My Portfolio</h1>
@@ -34,6 +38,12 @@ function App() {
       <section id="about">
         <h1>About Me</h1>
         
+        <img
+          src={profilePic}
+          alt="Karina Picture"
+          className="profile-image"
+        />
+
         <p>
           I am a student at Centennial College, learning software engineering.
         </p>
@@ -50,6 +60,7 @@ function App() {
 
         <a href="/resume.pdf" target="_blank">
           View My Resume
+          {/* need to fix this link to open the resume. wont open whatsoever. */}
         </a>
       </section>
 
@@ -76,6 +87,12 @@ function App() {
     projects, skills, and services.
   </p>
   <p>Completion Date: June 2026</p>
+
+  <h3> Small tictactoe game</h3>
+  <p>
+    A small tictactoe game built using Java
+  </p>
+  <p>Completion Date: A while ago idk lol</p>
 </section>
 
 <section id="services">
@@ -97,14 +114,21 @@ function App() {
   <p>Email: rockyaj2004@gmail.com</p>
   <p>LinkedIn: i dont have linked in yet.</p>
 
-  <form>
-    <input type="text" placeholder="First Name" />
-    <input type="text" placeholder="Last Name" />
-    <input type="email" placeholder="Email Address" />
-    <input type="tel" placeholder="Phone Number" />
-    <textarea placeholder="Message"></textarea>
-    <button type="submit">Send</button>
-  </form>
+<form
+  onSubmit={(e) => {
+    // prevents the page from refreshing when the form is submitted
+    e.preventDefault();
+    // gives an alert message when the form is submitted
+    alert("Message submitted successfully!");
+  }}
+>
+  <input type="text" placeholder="First Name" />
+  <input type="text" placeholder="Last Name" />
+  <input type="email" placeholder="Email Address" />
+  <input type="tel" placeholder="Phone Number" />
+  <textarea placeholder="Message"></textarea>
+  <button type="submit">Send</button>
+</form>
 </section>
     </div>
   );

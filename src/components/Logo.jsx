@@ -1,5 +1,11 @@
-function Logo() {
-  return <h2>KS Portfolio</h2>;
-}
+import logo from "../assets/logo.png";
 
-export default Logo;
+function Logo() {
+    return (
+        <img
+        src={logo}
+        alt="Karinas logo"
+        className="logo"
+      />
+    )
+}
