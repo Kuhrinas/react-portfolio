@@ -82,7 +82,8 @@ function App() {
     and practice front-end development ksills.
   </p>
   <a href="https://astonishing-sable-7a3b4c.netlify.app/"
-  target="_blank">
+  target="_blank" className="project-link">
+  
   View Project
 </a>
   <p>Completion Date: 2022</p>
@@ -98,7 +99,7 @@ className="project-image"
     I used JS, HTML and CSS for this. 
   </p>
 <a href="https://karinascafe.netlify.app/" 
-target="_blank">
+target="_blank" className="project-link">
  View Project
 </a>
   <p>Completion Date: 2022</p>

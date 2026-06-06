@@ -72,7 +72,7 @@ textarea {
   justify-content: center;
   font-size: 42px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .profile-image{
@@ -102,4 +102,14 @@ textarea {
   border-radius: 10px;
   margin: 15px 0;
   border: 2px solid #111827;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #111827;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
