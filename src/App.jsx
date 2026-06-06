@@ -67,26 +67,39 @@ function App() {
 <section id="projects">
   <h1>Projects</h1>
 
-  <h3>Student Study Planner</h3>
+  <h3>Personal About Me Website</h3>
   <p>
-    A web application designed to help students manage assignments,
-    exams, and study schedules.
+    A personal website created using html and css to introduce myself, showcase my interests,
+    and practice front-end development ksills.
   </p>
-  <p>Completion Date: June 2026</p>
+  <a href="https://astonishing-sable-7a3b4c.netlify.app/"
+  target="_blank">
+  View Project
+</a>
+  <p>Completion Date: 2022</p>
 
-  <h3>Package Delivery System</h3>
+  <h3>Karina's Cafe</h3>
   <p>
-    Javabased application used to manage riders and deliveries
-    through object oriented programming concepts.
+    A cafe websited designed to showcase menu items, business information, and show how fair
+    the prices are on the website (they're not lol). This project really helped me practice my CSS skills.
+    I used JS, HTML and CSS for this. 
   </p>
-  <p>Completion Date: May 2026</p>
+<a href="https://karinascafe.netlify.app/" 
+target="_blank">
+ View Project
+</a>
+  <p>Completion Date: 2022</p>
 
-  <h3>Portfolio Website</h3>
+  <h3>Tic Tac Toe Game</h3>
   <p>
-    Personal portfolio website developed using React to showcase
-    projects, skills, and services.
+    A tic tac toe game built using Javascript, HTML and CSS. Very small project but it was
+    really fun to build and obviously helped me better understand how to code. 
   </p>
-  <p>Completion Date: June 2026</p>
+  <a href="https://zingy-macaron-444903.netlify.app/" 
+target="_blank">
+ View Project
+</a>
+  <p>Completion Date:2022</p>
 
   <h3> Small tictactoe game</h3>
   <p>
