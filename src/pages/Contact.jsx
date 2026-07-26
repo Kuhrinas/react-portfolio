@@ -1,9 +1,24 @@
 function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>Feel free to reach out to me!</p>
-    </div>
+    <section>
+      <h1>Contact Me</h1>
+
+      <p>Email: rockyaj2004@gmail.com</p>
+      <p>LinkedIn: N/A</p>
+
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          alert("form submitted!");
+        }}
+        >
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+
+    </section>
   );
 }
 

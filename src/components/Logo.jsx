@@ -7,5 +7,7 @@ function Logo() {
         alt="Karinas logo"
         className="logo"
       />
-    )
+    );
 }
+
+export default Logo;
